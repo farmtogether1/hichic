@@ -355,11 +355,23 @@ body::-webkit-scrollbar-track {
 			#ast-desktop-header {
 				display: none;
 			}
+			br{
+				display: none;
+			}
+			.remove__margin{
+				margin-left: 0!important;
+			}
 		}
 
 		@media (min-width:768px) {
 			#ast-mobile-header {
 				display: none;
+			}
+			br{
+				display: none;
+			}
+			.remove__margin{
+				margin-left: 0!important;
 			}
 		}
 
@@ -369,12 +381,23 @@ body::-webkit-scrollbar-track {
 
 		@media (max-width:782px) {
 			.entry-content .wp-block-columns .wp-block-column {
-				margin-left: 0px;
+				margin-left: 0px!important;
+			}
+			br{
+				display: none;
+			}
+			.remove__margin{
+				margin-left: 0;
 			}
 		}
 
 		@media (max-width:768px) {
-
+			.remove__margin{
+				margin-left: 0!important;
+			}
+			br{
+				display: none;
+			}
 			.ast-separate-container .ast-article-post,
 			.ast-separate-container .ast-article-single {
 				padding: 1.5em 2.14em;
@@ -403,7 +426,12 @@ body::-webkit-scrollbar-track {
 		}
 
 		@media (min-width:769px) {
-
+			.remove__margin{
+				margin-left: 0!important;
+			}
+			br{
+				display: none;
+			}
 			.ast-separate-container.ast-right-sidebar #primary,
 			.ast-separate-container.ast-left-sidebar #primary {
 				border: 0;
@@ -2399,10 +2427,10 @@ body::-webkit-scrollbar-track {
 			fill: #FFFFFF;
 			color: #FFFFFF;
 			background-color: transparent;
-			background-image: linear-gradient(170deg, #b29e72 0%, #b29e72 100%);
+			/* background-color: #fbdc97; */
 			border-style: solid;
 			border-width: 2px 2px 2px 2px;
-			border-color: #b29e72;
+			border-color: #fbdc97;
 			border-radius: 10px;
 			box-shadow: 0px 0px 100px 0px rgba(38.00001247240146, 226.00000000000003, 179.00000311810038, 0.44);
 			padding: 8px 15px 8px 15px;
@@ -2411,7 +2439,7 @@ body::-webkit-scrollbar-track {
 		.elementor-17 .elementor-element.elementor-element-22938e90 .elementor-button:hover,
 		.elementor-17 .elementor-element.elementor-element-22938e90 .elementor-button:focus {
 			color: #000000;
-			background-color: #e0d1b0bb;
+			background-color: #fbdc97;
 		}
 
 		.elementor-17 .elementor-element.elementor-element-22938e90 .elementor-button:hover svg,
@@ -2703,7 +2731,7 @@ body::-webkit-scrollbar-track {
 		}
 
 		.elementor-17 .elementor-element.elementor-element-55b5132>.elementor-widget-container {
-			padding: 100px 200px 100px 200px;
+			padding: 100px 125px;
 		}
 
 		.elementor-17 .elementor-element.elementor-element-5722101d>.elementor-background-overlay {
@@ -5595,8 +5623,8 @@ body::-webkit-scrollbar-track {
 																				<li><i aria-hidden="true" class="fas fa-check-circle" style="color: #fbdc97;"></i> Highest Fixed APY &#8211; 500,000%
 																				</li>
 																				<li><i aria-hidden="true" class="fas fa-check-circle" style="color: #fbdc97;"></i> Risk insurance banks maximize the safety of investors!</li>
-																				<li><i aria-hidden="true" class="fas fa-check-circle" style="color: #fbdc97;"></i> High-safe Automatic Staking System and Compounding in <br><span style="margin-left:22px">Your Wallet!</span></li>
-																				<li><i aria-hidden="true" class="fas fa-check-circle" style="color: #fbdc97;"></i> Hyper Burn algorithm automatically burns the total supply<br><span style="margin-left:22px"></span> balance cyclically!</li>
+																				<li><i aria-hidden="true" class="fas fa-check-circle" style="color: #fbdc97;"></i> High-safe Automatic Staking System and Compounding in <br><span style="margin-left:22px" class="remove__margin">Your Wallet!</span></li>
+																				<li><i aria-hidden="true" class="fas fa-check-circle" style="color: #fbdc97;"></i> Hyper Burn algorithm automatically burns the total supply<br><span style="margin-left:22px" class="remove__margin"></span> balance cyclically!</li>
 																				<li><i aria-hidden="true" class="fas fa-check-circle" style="color: #fbdc97;"></i> HGet Rewards Every 15 Minutes / 96 Times Daily!</li>
 																			</ul>
 																		</div>
@@ -5671,7 +5699,7 @@ body::-webkit-scrollbar-track {
 																			<a class="ha-creative-btn ha-stl--hermosa ha-eft--bloom"
 																				href="#"
 																				target="_blank">
-																				<div></div><span style="font-size: 20px;">White Paper</span>
+																				<div></div><span style="font-size: 20px;"@>White Paper</span>
 																			</a>
 																		</div>
 																	</div>
@@ -6398,7 +6426,7 @@ body::-webkit-scrollbar-track {
 													</div>
 													<div class="elementor-icon-box-content">
 														<h3 class="elementor-icon-box-title">
-															<span>
+															<span style="font-weight: 600;color: #d0dce8;">
 																DMS Token </span>
 														</h3>
 														<p class="elementor-icon-box-description">
@@ -6450,7 +6478,7 @@ body::-webkit-scrollbar-track {
 													</div>
 													<div class="elementor-icon-box-content">
 														<h3 class="elementor-icon-box-title">
-															<span>
+															<span  style="font-weight: 600;color: #d0dce8;">
 																Hyper Burn Algorithm </span>
 														</h3>
 														<p class="elementor-icon-box-description">
